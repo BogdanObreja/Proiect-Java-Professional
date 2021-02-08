@@ -21,6 +21,7 @@ Password să fie identică cu confirmation_password, altfel se scrie “Parole d
 Parola să aibă minum 8 caractere, altfel se afișează “Parolă prea scurtă!”
 Adresa de email să fie una validă, adică să aibă structura ”string@string.string” , altfel se scrie “Adresă de email invalidă”. 
 Adresa de email este unică. Nu pot fi doi abonati cu aceeași adresă. Dacă există deja, nu se poate adăuga, afișându-se “Adresa de email este deja utilizata!”
+  
 SIGNUP_ANTRENOR email name max_abonati password confirmation_password
 Se fac aceleași verificări ca pentru abonați
 LOGIN_ABONAT email password
@@ -28,31 +29,74 @@ Dacă abonatul nu există se va scrie ”Abonatul nu exista!”
 Dacă abonatul există, dar parola este greșită, se afișează ”Parola incorecta!”
 Dacă credențialele sunt corecte, abonatul va fi abonatul curent, folosit pentru urmatoarele operații
 Dacă există deja un abonat conectat, se afișează ”Alt abonat este deja conectat!”
+
 LOGIN_ANTRENOR email password
 Similar, va exista un antrenor current. Se fac aceleași verificări.
+
 LOGOUT_ABONAT email
 Dacă abonatul nu era cel logat, se afișează ” abonatul nu era conectat!”
 Dacă abonatul era cel conectat, este deconectat (NU mai este abonatul curent și se poate loga alt abonat)
+
 LOGOUT_ANTRENOR email
 La fel ca mai sus
+
 INCREMENT_PROGRES value
 Dacă abonatul nu este logat, se va afișa  ”Nu există nici un abonat logat!”
 Dacă există un abonat curent, atunci se va incrementa progresul cu valoarea data ca parametru. Dacă suma depașește 10, nu se va face incrementarea, ci se va scrie: “Nu se poate face incrementare. Progresul total ar fi ” + suma 
+
 DECREMENT_PROGRES value
 Dacă abonatul nu este logat, se va afișa  ”Nu există nici un abonat logat!”
 Dacă există un abonat curent, atunci se va decrementa progresul cu valoarea dată ca parametru. Dacă totalul este sub 0, nu se va face operația, ci se va scrie: “Nu se poate face decrementarea . Progresul total ar fi ” + valoare_totala 
+
 ADAUGA_ANTRENOR email
 Dacă abonatul nu este logat, se va afișa  ”Nu există nici un abonat logat!”
 Abonatul curent va avea ca antrenor pe cel care are adresa de email cea dată ca parametru.
 Dacă acel antrenor nu există, se va scrie “Nu exista antrenorul cu emailul <email>”.
 Dacă exista antrenorul, dar nu mai are locuri libere se va afișa ”Antrenorul nu mai are locuri libere!”
 Dacă se trece de aceste verificări, acel antrenor va fi noul antrenor al abonatului curent. Se va actualiza și lista de abonați a antrenorului.
+
 VIZUALIZARE_ABONATII_MEI
 Dacă antrenorul nu este logat, se va afișa  ”Nu există nici un antrenor logat!”
 Dacă există, se vor afișa toți abonații acestuia
+
 SUBSCRIBE_ABONAT
 Dacă abonatul nu este logat, se va afișa  ”Nu există nici un abonat logat!”
 Altfel, acesta se abonează la newsletterul salii (daca nu este deja) și se scrie ”Abonatul cu adresa de email  <email> a fost abonat la newsletter”.
+
 SUBSCRIBE_ANTRENOR
 Dacă antrenorul nu este logat, se va afișa  ”Nu există nici un antrenor logat!”
 Altfel, acesta se abonează la newsletterul salii (daca nu este deja) și se scrie ”Antrenorul cu adresa de email  <email> a fost abonat la newsletter”.
+  
+Instrucțiuni fără logare
+
+ADAUGA_NEWS mesaj
+Se va adauga stirea cu mesajul primit ca parametru. Se va scrie “A fost adaugata stirea cu mesajul <mesaj>”
+Vor fi notificați toti userii care au fost abonatii la newsletterul sălii și pentru fiecare se va scrie: “A fost notificat persoana cu adresa de email <email>  de stirea cu mesajul: <mesaj>”
+
+INTRA_IN_SALA email
+Dacă există antrenorul sau abonatul cu adresa de email  respectivă, va fi adăugat în sală, la data și ora curentă. 
+Dacă deja este în sală, se va scrie: “Persoana cu adresa de email <email > este deja in sala!”
+Dacă sala este deja plină, se va scrie: “Sala este deja plină! Sunteți pus în coada de așteptare!” și va fi adăugat într-o coada, de unde vor intra in ordine in sala, atunci când va ieși cineva
+
+IESE_DIN_SALA email
+Dacă există antrenorul sau abonatul cu adresa de email respectivă, va fi scos din sală
+Dacă nu este în sală, se va scrie: “Persoana cu adresa de email  <email> nu este in sala!”
+
+VIZUALIZARE_PERSOANE_CU_ANTRENOR
+Se va scrie, sub forma unui map, toți abonații. Aceștia vor fi grupați după antrenor. Deci Antrenorul va fi cheia, iar fiecare va avea ca valoare o lista cu abonații acestuia.
+Pentru vizualizare, se poate scrie doar numele antrenorului sau adresa de email. La fel și pentru abonați. Ex. afișare: email_antrenor: email_abonat1, email_abonat2, ..
+
+VIZUALIZARE_ABONATI
+Afișarea tuturor abonaților din aplicație sortați descresător după progres (dacă au același progres, se vor afișa alfabetic).
+
+VIZUALIZARE_ANTRENORI
+Afișarea antrenorilor sortați crescător după numărul de abonați. La număr egal de abonați, se sortează alfabetic, după nume
+
+PERSISTA_ABONATI
+Se vor adauga in tabela “abonati” toti abonatii existenti
+Se va scrie în fișierul de out: “Abonatii au fost salvati in baza de date!”
+
+PERSISTA_ANTRENORI
+Se vor adauga in tabela “antrenori” toti antrenorii existenti
+Se va scrie în fișierul de out: “Antrenorii au fost salvati in baza de date!”
+  
