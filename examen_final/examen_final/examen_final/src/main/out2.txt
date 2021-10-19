@@ -1,0 +1,110 @@
+Abonatul A a fost adaugat!
+Abonatul B a fost adaugat!
+Abonatul C a fost adaugat!
+Abonatul D a fost adaugat!
+Abonatul R a fost adaugat!
+Antrenorul A a fost adaugat!
+Antrenorul B a fost adaugat!
+Antrenorul C a fost adaugat!
+Antrenorul D a fost adaugat!
+Antrenorul E a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Person cu adresa de email be1.obreja@gmail.com este deja in sala
+Sala este deja plina! Sunteti pus in coada de asteptare
+antrenor1@gmail.com: 
+antrenor2@gmail.com: 
+antrenor3@gmail.com: 
+antrenor4@gmail.com: 
+antrenor5@gmail.com: 
+antrenor6@gmail.com: be2.obreja@gmail.com
+antrenor7@gmail.com: be1.obreja@gmail.com,be3.obreja@gmail.com,be4.obreja@gmail.com
+antrenor8@gmail.com: 
+Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:36:31.154711300], id=0, progres=5}
+Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:36:31.157702200], id=1, progres=5}
+Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:36:31.157702200], id=2, progres=5}
+Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:36:31.157702200], id=3, progres=2}
+Client{email='be5.obreja@gmail.com', nume='R', intrariSala=[2021-02-08T20:36:31.157702200], id=4, progres=1}
+FitnessCoach{email='antrenor1@gmail.com, nume='A', id=0', nrMaxCursanti=7, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.157702200]}
+FitnessCoach{email='antrenor2@gmail.com, nume='B', id=1', nrMaxCursanti=6, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.157702200]}
+FitnessCoach{email='antrenor3@gmail.com, nume='C', id=2', nrMaxCursanti=5, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.158700]}
+FitnessCoach{email='antrenor4@gmail.com, nume='D', id=3', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.158700]}
+FitnessCoach{email='antrenor5@gmail.com, nume='E', id=4', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.158700]}
+FitnessCoach{email='antrenor8@gmail.com, nume='F', id=7', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[]}
+FitnessCoach{email='antrenor6@gmail.com, nume='F', id=5', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:36:31.157702200], id=1, progres=5}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.158700]}
+FitnessCoach{email='antrenor7@gmail.com, nume='F', id=6', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:36:31.154711300], id=0, progres=5}, Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:36:31.157702200], id=2, progres=5}, Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:36:31.157702200], id=3, progres=2}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:36:31.158700]}
+Abonatul A a fost adaugat!
+Abonatul B a fost adaugat!
+Abonatul C a fost adaugat!
+Abonatul D a fost adaugat!
+Abonatul R a fost adaugat!
+Antrenorul A a fost adaugat!
+Antrenorul B a fost adaugat!
+Antrenorul C a fost adaugat!
+Antrenorul D a fost adaugat!
+Antrenorul E a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Person cu adresa de email be1.obreja@gmail.com este deja in sala
+Sala este deja plina! Sunteti pus in coada de asteptare
+antrenor1@gmail.com: 
+antrenor2@gmail.com: 
+antrenor3@gmail.com: 
+antrenor4@gmail.com: 
+antrenor5@gmail.com: 
+antrenor6@gmail.com: be2.obreja@gmail.com
+antrenor7@gmail.com: be1.obreja@gmail.com,be3.obreja@gmail.com,be4.obreja@gmail.com
+antrenor8@gmail.com: 
+Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:39:07.551890600], id=0, progres=5}
+Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:39:07.551890600], id=1, progres=5}
+Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:39:07.551890600], id=2, progres=5}
+Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:39:07.551890600], id=3, progres=2}
+Client{email='be5.obreja@gmail.com', nume='R', intrariSala=[2021-02-08T20:39:07.551890600], id=4, progres=1}
+FitnessCoach{email='antrenor1@gmail.com, nume='A', id=0', nrMaxCursanti=7, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.551890600]}
+FitnessCoach{email='antrenor2@gmail.com, nume='B', id=1', nrMaxCursanti=6, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.551890600]}
+FitnessCoach{email='antrenor3@gmail.com, nume='C', id=2', nrMaxCursanti=5, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.551890600]}
+FitnessCoach{email='antrenor4@gmail.com, nume='D', id=3', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.551890600]}
+FitnessCoach{email='antrenor5@gmail.com, nume='E', id=4', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.567512300]}
+FitnessCoach{email='antrenor8@gmail.com, nume='F', id=7', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[]}
+FitnessCoach{email='antrenor6@gmail.com, nume='F', id=5', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:39:07.551890600], id=1, progres=5}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.567512300]}
+FitnessCoach{email='antrenor7@gmail.com, nume='F', id=6', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:39:07.551890600], id=0, progres=5}, Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:39:07.551890600], id=2, progres=5}, Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:39:07.551890600], id=3, progres=2}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:07.567512300]}
+Abonatul A a fost adaugat!
+Abonatul B a fost adaugat!
+Abonatul C a fost adaugat!
+Abonatul D a fost adaugat!
+Abonatul R a fost adaugat!
+Antrenorul A a fost adaugat!
+Antrenorul B a fost adaugat!
+Antrenorul C a fost adaugat!
+Antrenorul D a fost adaugat!
+Antrenorul E a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Antrenorul F a fost adaugat!
+Person cu adresa de email be1.obreja@gmail.com este deja in sala
+Sala este deja plina! Sunteti pus in coada de asteptare
+antrenor1@gmail.com: 
+antrenor2@gmail.com: 
+antrenor3@gmail.com: 
+antrenor4@gmail.com: 
+antrenor5@gmail.com: 
+antrenor6@gmail.com: be2.obreja@gmail.com
+antrenor7@gmail.com: be1.obreja@gmail.com,be3.obreja@gmail.com,be4.obreja@gmail.com
+antrenor8@gmail.com: 
+Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:39:44.109730700], id=0, progres=5}
+Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:39:44.111725400], id=1, progres=5}
+Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:39:44.111725400], id=2, progres=5}
+Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:39:44.111725400], id=3, progres=2}
+Client{email='be5.obreja@gmail.com', nume='R', intrariSala=[2021-02-08T20:39:44.111725400], id=4, progres=1}
+FitnessCoach{email='antrenor1@gmail.com, nume='A', id=0', nrMaxCursanti=7, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.111725400]}
+FitnessCoach{email='antrenor2@gmail.com, nume='B', id=1', nrMaxCursanti=6, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.111725400]}
+FitnessCoach{email='antrenor3@gmail.com, nume='C', id=2', nrMaxCursanti=5, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.111725400]}
+FitnessCoach{email='antrenor4@gmail.com, nume='D', id=3', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.111725400]}
+FitnessCoach{email='antrenor5@gmail.com, nume='E', id=4', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.112722500]}
+FitnessCoach{email='antrenor8@gmail.com, nume='F', id=7', nrMaxCursanti=4, abonatiAntrenor=[], password='ALABALAPORTOCALA', intrariSala=[]}
+FitnessCoach{email='antrenor6@gmail.com, nume='F', id=5', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be2.obreja@gmail.com', nume='B', intrariSala=[2021-02-08T20:39:44.111725400], id=1, progres=5}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.112722500]}
+FitnessCoach{email='antrenor7@gmail.com, nume='F', id=6', nrMaxCursanti=4, abonatiAntrenor=[Client{email='be1.obreja@gmail.com', nume='A', intrariSala=[2021-02-08T20:39:44.109730700], id=0, progres=5}, Client{email='be3.obreja@gmail.com', nume='C', intrariSala=[2021-02-08T20:39:44.111725400], id=2, progres=5}, Client{email='be4.obreja@gmail.com', nume='D', intrariSala=[2021-02-08T20:39:44.111725400], id=3, progres=2}], password='ALABALAPORTOCALA', intrariSala=[2021-02-08T20:39:44.112722500]}
+Abonatii au fost salvati in baza de date
+Antrenorii au fost salvati in baza de date
